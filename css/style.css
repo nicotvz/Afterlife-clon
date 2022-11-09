@@ -43,10 +43,10 @@ header {
   display: inline-flex;
   flex-wrap: wrap;
   list-style: none;
+  padding-right: 350px;
 }
 
-.nav__item,
-.fa-brands {
+.nav__item {
   margin: 0 0 0 1.5rem;
 }
 
@@ -71,6 +71,12 @@ header {
 .img-home {
   width: 100%;
   height: auto;
+}
+
+@media (max-width: 685px) {
+  .img-home {
+    height: 430px;
+  }
 }
 
 /**Events*/
@@ -102,6 +108,7 @@ header {
 }
 
 .events .card img {
+  max-width: 100%;
   width: 500px;
   height: 700px;
   padding-bottom: 1rem;
@@ -125,6 +132,35 @@ header {
   text-decoration: underline;
 }
 
+@media (max-width: 1120px) {
+  .events .card:hover {
+    transform: translateY(0px);
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+  }
+
+  .events .card {
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+  }
+}
+
+@media (max-width: 540px) {
+  .events {
+    gap: 30px;
+  }
+
+  .events .card img {
+    max-width: 100%;
+    width: 300px;
+    height: 500px;
+    padding-bottom: 1rem;
+  }
+
+  .events .card {
+    width: 300px;
+    height: 590px;
+  }
+}
+
 /**Recordings*/
 .mediaplayer {
   display: flex;
@@ -140,6 +176,17 @@ header {
 .mediaplayer__player {
   position: absolute;
   width: 31%;
+}
+
+@media (max-width: 1171px) {
+  .mediaplayer img {
+    height: 628px;
+  }
+
+  .mediaplayer__player {
+    position: absolute;
+    width: 300px;
+  }
 }
 
 /**Merch*/
@@ -236,11 +283,4 @@ footer {
 .footer__bottom-copyright {
   font-size: 13px;
   padding-bottom: 1rem;
-}
-
-/**Media query*/
-@media (max-width: 1023px) {
-  .fa-brands {
-    visibility: hidden;
-  }
 }
