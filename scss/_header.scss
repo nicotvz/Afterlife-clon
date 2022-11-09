@@ -1,0 +1,43 @@
+/*Header+Navbar*/
+header {
+  background-color: $custom-color1;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding: 1vw 4vw 1vw 4vw;
+  box-shadow: 0px 0px 20px -7px #000;
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .main-logo {
+    width: auto;
+    max-height: 20px;
+  }
+
+  .nav__list {
+    display: inline-flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-right: 430px;
+  }
+
+  .nav__item {
+    margin: 0 0 0 1.5rem;
+  }
+
+  .nav__item1,
+  .nav__item2,
+  .nav__item3,
+  .nav__item4,
+  .nav__item5 {
+    font-weight: bold;
+  }
+
+  .nav__link,
+  .fa-brands {
+    color: #000;
+  }
+}

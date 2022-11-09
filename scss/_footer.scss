@@ -1,0 +1,27 @@
+/*Footer*/
+footer {
+  background-color: $custom-color2;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 5rem;
+
+  .footer__form-text {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .footer__form {
+    padding-bottom: 5rem;
+  }
+
+  .footer-logo {
+    width: 70px;
+    padding-bottom: 0.5rem;
+  }
+
+  .footer__bottom-copyright {
+    font-size: 13px;
+    padding-bottom: 1rem;
+  }
+}

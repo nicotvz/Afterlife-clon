@@ -1,0 +1,13 @@
+/*Home*/
+main {
+  .img-home {
+    width: 100%;
+    height: auto;
+  }
+
+  @include mq-medium {
+    .img-home {
+      height: 430px;
+    }
+  }
+}

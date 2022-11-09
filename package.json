@@ -1,0 +1,30 @@
+{
+  "name": "afterlife-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicotvz/PreEntrega2-Tevez.git"
+  },
+  "keywords": [
+    "tale of us",
+    "afterlife",
+    "unity",
+    "anyma",
+    "mrak",
+    "techno",
+    "music",
+    "matteo milleri",
+    "carmine conte"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicotvz/PreEntrega2-Tevez/issues"
+  },
+  "homepage": "https://github.com/nicotvz/PreEntrega2-Tevez#readme"
+}
