@@ -125,6 +125,15 @@ main .events .card a {
   main .events {
     gap: 30px;
   }
+  main .events .card {
+    width: 500px;
+    height: 590px;
+  }
+
+  main .events .card img {
+    width: 500px;
+    height: 500px;
+  }
 }
 
 /*Recordings*/

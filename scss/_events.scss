@@ -63,5 +63,15 @@ main {
     .events {
       gap: 30px;
     }
+
+    .events .card {
+      width: 500px;
+      height: 590px;
+    }
+
+    .events .card img {
+      width: 500px;
+      height: 500px;
+    }
   }
 }
