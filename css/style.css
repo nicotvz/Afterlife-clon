@@ -225,6 +225,7 @@ footer .footer__form {
 }
 footer .footer-logo {
   width: 30px;
+  padding-top: 4rem;
   padding-bottom: 0.5rem;
 }
 footer .footer__bottom-copyright {
